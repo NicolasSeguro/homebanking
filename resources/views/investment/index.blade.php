@@ -36,7 +36,7 @@
           <td>{{$inv->empresa}}</td>
           <td>{{$inv->acciones}} / {{$inv->total}}</td>
           <td>{{$inv->valor}}</td>
-          <td class="text-right">
+          <td class="text-center">
             <a href="{{ route('investment.buy', ['id' => $inv->id]) }}" class="btn btn-primary">Comprar</a>
             <a href="{{ route('investment.sell', ['id' => $inv->id]) }}" class="btn btn-primary">Vender</a>
           </td>
