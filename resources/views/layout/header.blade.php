@@ -56,7 +56,7 @@
             <div class="full">
               <div class="center-desk">
                 <div class="logo">
-                  <a href="1"><img src="{{ URL::asset('images/coins-1.png') }}" alt="#" /></a>
+                  <a href="{{ url('/') }}"><img src="{{ URL::asset('images/coins-1.png') }}" alt="#" /></a>
                 </div>
               </div>
             </div>
